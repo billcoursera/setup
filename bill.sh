@@ -15,5 +15,5 @@ git checkout develop
 # heroku setup
 heroku login
 heroku keys:add
-git remote add staging-heroku heroku@github.com:billcoursera-bitstarter-s-mooc.git
-git remote add production-heroku heroku@github.com:billcoursera-bitstarter-mooc.git
+git remote add staging-heroku git@heroku.com:billcoursera-bitstarter-s-mooc.git
+git remote add production-heroku git@heroku.com:billcoursera-bitstarter-mooc.git
