@@ -50,3 +50,10 @@ ln -sb dotfiles/.bash_history .
 ln -sb dotfiles/.bash_eternal_history .
 ln -sf dotfiles/.emacs.d .
 
+# git config
+git config --global user.name billcoursera
+git config --global user.email billko+coursera@gmail.com 
+
+# RSA_id gen
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
