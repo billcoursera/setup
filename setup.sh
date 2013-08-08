@@ -53,3 +53,5 @@ ln -sf dotfiles/.emacs.d .
 # RSA_id gen
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
+
+echo "NOTICE: Remember to copy the RSA key into github and heroku!"
